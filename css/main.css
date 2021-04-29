@@ -111,11 +111,25 @@ body {
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   border-top: 1px solid #eee;
-  border-bottom: 1px solid#eee;
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  flex-flow: row wrap;
 }
 
+
+header, footer {
+    border-bottom: 1px solid#eee;
+    color: #fff;
+    font-size: 32px;
+    width: 100%;
+}
+
+main {
+    border-bottom: 1px solid#eee;
+    color: #fff;
+    width: 100%;
+}
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #eee;
@@ -139,6 +153,9 @@ p {
     padding: 0.75em;
 }
 
+footer {
+    border-top: 1px solid#eee;
+}
 
 
 
